@@ -1,9 +1,9 @@
 def hasL(w):
 
     for i in range(0, len(w)):
-        if w[i] == "1":
+        if w[i] == "l":
             return True
 
     return False 
 
-print (hasL("osowski"))
+print (hasL("lake"))
